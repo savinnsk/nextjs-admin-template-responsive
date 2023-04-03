@@ -11,7 +11,6 @@ import {
   SimpleGrid,
   VStack,
 } from "@chakra-ui/react";
-import { RiAddLine, RiPencilLine } from "react-icons/ri";
 
 export default function CreateUSer() {
   return (
