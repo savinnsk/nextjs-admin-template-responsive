@@ -6,13 +6,15 @@ const customTheme = {
     body: "Roboto",
   },
   styles: {
-    body: {
-      bg: "gray.900",
-      font: "gray.50",
-    },
     global: {
-      bg: "gray.900",
-      font: "gray.50",
+      "html , body ": {
+        bg: "gray.900",
+        font: "gray.50",
+        color: "gray.50",
+      },
+      p: {
+        color: "gray.50",
+      },
     },
   },
   colors: {
@@ -29,6 +31,6 @@ const customTheme = {
       "900": "#181B23",
     },
   },
-} as Theme;
+} as unknown as Theme;
 
 export const theme = extendTheme(customTheme);

@@ -14,7 +14,7 @@ import {
 
 export default function CreateUSer() {
   return (
-    <Flex direction="column" h="100vh" color="gray.50" bg="gray.900">
+    <Flex direction="column" h="100vh">
       <Header />
       <Flex w="100%" maxWidth={1480} mx="auto" px="6">
         <Sidebar />
