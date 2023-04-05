@@ -10,7 +10,10 @@ const customTheme = {
       bg: "gray.900",
       font: "gray.50",
     },
-    global: {},
+    global: {
+      bg: "gray.900",
+      font: "gray.50",
+    },
   },
   colors: {
     gray: {
