@@ -3,14 +3,7 @@ import { Button, Flex, Stack } from "@chakra-ui/react";
 
 export default function SignIn() {
   return (
-    <Flex
-      w="100vw"
-      h="100vh"
-      align="center"
-      justify="center"
-      bg="gray.900"
-      color="gray.50"
-    >
+    <Flex w="100vw" h="100vh" align="center" justify="center">
       <Flex
         as="form"
         w="100%"
