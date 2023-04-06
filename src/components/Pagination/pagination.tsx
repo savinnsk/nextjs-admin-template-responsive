@@ -1,5 +1,5 @@
 import { Box, Button, Stack, Text } from "@chakra-ui/react";
-import { PaginationItem } from "./Pagination/paginationItem";
+import { PaginationItem } from "./paginationItem";
 
 export function Pagination() {
   return (

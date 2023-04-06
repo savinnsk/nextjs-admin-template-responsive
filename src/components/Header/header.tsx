@@ -1,8 +1,8 @@
 import { Flex, Icon, IconButton, useBreakpointValue } from "@chakra-ui/react";
-import { Profile } from "./Header/profile";
-import { NotificationNav } from "./Header/notificationNav";
-import { SearchBox } from "./Header/searchBox";
-import { Logo } from "./Header/logo";
+import { Profile } from "./profile";
+import { NotificationNav } from "./notificationNav";
+import { SearchBox } from "./searchBox";
+import { Logo } from "./logo";
 import { useSidebarDrawer } from "@/contexts/sidebarContext";
 import { RiMenuLine } from "react-icons/ri";
 export function Header() {

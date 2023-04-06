@@ -1,6 +1,7 @@
 import { Input } from "@/components/Form/input";
-import { Header } from "@/components/header";
-import { Sidebar } from "@/components/sidebar";
+import { Header } from "@/components/Header/header";
+import { Sidebar } from "@/components/SideBar/sidebar";
+
 import {
   Box,
   Button,

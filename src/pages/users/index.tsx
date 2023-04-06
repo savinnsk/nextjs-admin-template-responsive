@@ -1,5 +1,6 @@
-import { Header } from "@/components/header";
-import { Pagination } from "@/components/pagination";
+import { Header } from "@/components/Header/header";
+import { Pagination } from "@/components/Pagination/pagination";
+
 import { Sidebar } from "@/components/sidebar";
 import {
   Box,
@@ -33,7 +34,7 @@ export default function UserList() {
       <Flex w="100%" maxWidth={1480} mx="auto" px="6">
         <Sidebar />
 
-        <Box flex="1" borderRadius={8} bg="gray.800" p="8">
+        <Box flex="1" borderRadius={8} bg="gray.800" p={["6", "8"]}>
           <Flex mb="8" justify="space-between" align="center">
             <Heading size="lg" fontWeight="normal">
               Users
