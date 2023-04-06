@@ -6,7 +6,7 @@ import {
   FormErrorMessage,
 } from "@chakra-ui/react";
 import { forwardRef, ForwardRefRenderFunction } from "react";
-import { FieldError } from "react-hook-form";
+//import { FieldError } from "react-hook-form";
 
 interface InputProps extends ChakraInputProps {
   name: string;
@@ -40,4 +40,5 @@ const InputBase: ForwardRefRenderFunction<HTMLInputElement, InputProps> = (
   );
 };
 
+//to use ref prop
 export const Input = forwardRef(InputBase);
