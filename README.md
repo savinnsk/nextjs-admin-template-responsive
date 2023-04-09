@@ -1,5 +1,3 @@
-# Untitled
-
 # Next.js & Chakra UI Admin Panel
 
 Description: This is a web application built using Next.js and Chakra UI, with a focus on creating a responsive and secure administrator panel. The application was developed during a bootcamp at Rocketseat, and includes features like server-side rendering, automatic code splitting, and optimized performance.
