@@ -19,10 +19,10 @@ import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 
 type CreateUserFormData = {
-  name?: string;
-  email?: string;
-  password?: string;
-  password_confirmation?: string;
+  name: string;
+  email: string;
+  password: string;
+  password_confirmation: string;
 };
 
 const createUserFormSchema = yup.object().shape({
@@ -41,7 +41,7 @@ export default function CreateUSer() {
 
   const { errors } = formState;
 
-  const handleCreateUser: SubmitHandler<CreateUserFormData> = (
+  const handleCreateUser: SubmitHandler<CreateUserFormData | any> = (
     values,
     event
   ) => {};
@@ -54,11 +54,11 @@ export default function CreateUSer() {
 
         <Box
           as="form"
-          onSubmit={handleSubmit(handleCreateUser)}
           flex="1"
           borderRadius={8}
           bg="gray.800"
           p={["6", "8"]}
+          onSubmit={handleSubmit(handleCreateUser)}
         >
           <Heading size="lg" fontWeight="normal">
             Create User
@@ -72,7 +72,7 @@ export default function CreateUSer() {
                 type="text"
                 label="full name"
                 error={errors.name}
-                {...register("nme")}
+                {...register("name")}
               />
               <Input
                 type="email"
