@@ -28,7 +28,7 @@ export default function Dashboard() {
             <Chart type="area" height={160} width={"100%"} />
           </Box>
 
-          <Box p="4" bg="gray.800" borderRadius={8}>
+          <Box p={["6", "8"]} bg="gray.800" borderRadius={8}>
             <Text fontSize="lg" mb="4">
               info
             </Text>
