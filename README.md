@@ -12,9 +12,9 @@ This project showcases a strong understanding of web application development, ut
 
 ![Screenshot from 2023-04-09 16-05-33.png](Untitled%20efdfe86f16734325b3a8a163c976d913/Screenshot_from_2023-04-09_16-05-33.png)
 
-## RESPONSIVE UI
-
 ![Screenshot from 2023-04-09 15-53-49.png](Untitled%20efdfe86f16734325b3a8a163c976d913/Screenshot_from_2023-04-09_15-53-49.png)
+
+## RESPONSIVE UI
 
 ![Screenshot from 2023-04-09 15-52-43.png](Untitled%20efdfe86f16734325b3a8a163c976d913/Screenshot_from_2023-04-09_15-52-43.png)
 
